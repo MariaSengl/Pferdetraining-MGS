@@ -41,7 +41,7 @@ nav a:hover {
 
 .section-start h1 {
   font-size: 4em; /* sehr große Überschrift */
-  margin-top: 250px; /* schiebt die Überschrift nach unten */
+  margin-top: 350px; /* schiebt die Überschrift nach unten */
   margin-bottom: 20px;
 }
 
