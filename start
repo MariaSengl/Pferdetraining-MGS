@@ -8,13 +8,14 @@
       font-family: 'Georgia', serif;
       margin: 0;
       padding: 0;
-      background-color: #fdf6e3; /* beige Hintergrund */
+      background-color: #d6bfa8; /* sanfter bräunlicher Hintergrund */
       color: #4b3b2b; /* dunkelbrauner Text */
       line-height: 1.6;
     }
 
+    /* Menü */
     nav {
-      background-color: #8b6d5c; /* braun */
+      background-color: #8b6d5c; /* dunkleres Braun für Menü */
       padding: 15px 20px;
       text-align: center;
     }
@@ -31,8 +32,17 @@
       color: #ffd700; /* gold */
     }
 
+    /* Abschnitte / Textboxen */
+    section {
+      padding: 40px 20px;
+      border-radius: 20px;
+      margin: 20px;
+      background-color: #f0e0d6; /* sanft hellbraun für Boxen */
+    }
+
+    /* Startbereich mit Bild */
     .section-start {
-      background-image: url('bilder/meinbild.jpg');
+      background-image: url('bilder/meinbild.jpg'); /* Hier dein Bild einfügen */
       background-size: cover;
       background-position: center;
       color: white;
@@ -46,15 +56,13 @@
       font-family: 'Georgia', serif;
     }
 
-    section {
-      padding: 40px 20px;
-      border-radius: 20px;
-      margin: 20px;
-      background-color: rgba(255, 255, 255, 0.8); /* leicht transparent, harmonisch */
-    }
-
     p {
       font-size: 1.1em;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 15px;
     }
   </style>
 </head>
@@ -74,14 +82,15 @@
   <!-- Startseite mit Bild & Beschreibung -->
   <section class="section-start">
     <h1>Willkommen zu meiner Arbeit</h1>
-    <p>Hier zeige ich, was ich mache, meine Philosophie und meine Angebote. 
-       Lassen Sie sich inspirieren!</p>
+    <p>Hier kannst du eine kurze Beschreibung deiner Arbeit, Philosophie oder Motivation einfügen.</p>
   </section>
 
   <!-- Beispiel für weiteren Textbereich -->
   <section>
-    <h2>Überblick</h2>
-    <p>In diesem Bereich kannst du kurz erklären, welche Art von Arbeit du machst und wie du dabei vorgehst.</p>
+    <h2>Einführung</h2>
+    <p>Hier kannst du ausführlicher erklären, was du machst, welche Angebote du hast, oder besondere Highlights zeigen.</p>
+    <!-- Beispiel für ein Bild -->
+    <img src="bilder/meinbild2.jpg" alt="Meine Arbeit">
   </section>
 
 </body>
