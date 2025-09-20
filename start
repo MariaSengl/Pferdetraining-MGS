@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine Arbeit</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf6e3; /* beige Hintergrund */
+      color: #4b3b2b; /* dunkelbrauner Text */
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #8b6d5c; /* braun */
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f5e1a4; /* gold/beige */
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      color: #ffd700; /* gold */
+    }
+
+    .section-start {
+      background-image: url('bilder/meinbild.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    h1, h2 {
+      font-family: 'Georgia', serif;
+    }
+
+    section {
+      padding: 40px 20px;
+      border-radius: 20px;
+      margin: 20px;
+      background-color: rgba(255, 255, 255, 0.8); /* leicht transparent, harmonisch */
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menü -->
+  <nav>
+    <a href="index.html">Startseite</a>
+    <a href="ueber-mich.html">Über mich</a>
+    <a href="ausbildungen.html">Meine Ausbildungen</a>
+    <a href="philosophie.html">Meine Philosophie</a>
+    <a href="angebote.html">Meine Angebote</a>
+    <a href="preise.html">Preise</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <!-- Startseite mit Bild & Beschreibung -->
+  <section class="section-start">
+    <h1>Willkommen zu meiner Arbeit</h1>
+    <p>Hier zeige ich, was ich mache, meine Philosophie und meine Angebote. 
+       Lassen Sie sich inspirieren!</p>
+  </section>
+
+  <!-- Beispiel für weiteren Textbereich -->
+  <section>
+    <h2>Überblick</h2>
+    <p>In diesem Bereich kannst du kurz erklären, welche Art von Arbeit du machst und wie du dabei vorgehst.</p>
+  </section>
+
+</body>
+</html>
