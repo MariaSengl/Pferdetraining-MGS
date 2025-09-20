@@ -2,69 +2,8 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Arbeit</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      margin: 0;
-      padding: 0;
-      background-color: #d6bfa8; /* sanfter bräunlicher Hintergrund */
-      color: #4b3b2b; /* dunkelbrauner Text */
-      line-height: 1.6;
-    }
-
-    /* Menü */
-    nav {
-      background-color: #8b6d5c; /* dunkleres Braun für Menü */
-      padding: 15px 20px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #f5e1a4; /* gold/beige */
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-      font-size: 1.1em;
-    }
-
-    nav a:hover {
-      color: #ffd700; /* gold */
-    }
-
-    /* Abschnitte / Textboxen */
-    section {
-      padding: 40px 20px;
-      border-radius: 20px;
-      margin: 20px;
-      background-color: #f0e0d6; /* sanft hellbraun für Boxen */
-    }
-
-    /* Startbereich mit Bild */
-    .section-start {
-      background-image: url('bilder/meinbild.jpg'); /* Hier dein Bild einfügen */
-      background-size: cover;
-      background-position: center;
-      color: white;
-      padding: 120px 20px;
-      text-align: center;
-      border-radius: 20px;
-      margin: 20px;
-    }
-
-    h1, h2 {
-      font-family: 'Georgia', serif;
-    }
-
-    p {
-      font-size: 1.1em;
-    }
-
-    img {
-      max-width: 100%;
-      border-radius: 15px;
-    }
-  </style>
+  <title>Pferdetraining</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -79,18 +18,17 @@
     <a href="kontakt.html">Kontakt</a>
   </nav>
 
-  <!-- Startseite mit Bild & Beschreibung -->
+  <!-- Startbereich mit großem Hintergrundbild -->
   <section class="section-start">
     <h1>Pferdetraining</h1>
     <p>Motivation - Gesundheit - Sicherheit</p>
   </section>
 
-  <!-- Beispiel für weiteren Textbereich -->
+  <!-- Beispiel-Abschnitt -->
   <section>
     <h2>Einführung</h2>
-    <p>Hier kannst du ausführlicher erklären, was du machst, welche Angebote du hast, oder besondere Highlights zeigen.</p>
-    <!-- Beispiel für ein Bild -->
-    <img src="bilder/meinbild2.jpg" alt="Meine Arbeit">
+    <p>Hier kannst du beschreiben, worum es bei deinem Pferdetraining geht, wie du arbeitest und was dich besonders macht.</p>
+    <img src="bilder/bild1.jpg" alt="Pferdetraining Beispielbild">
   </section>
 
 </body>
