@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Über mich</title>
+  <title>Kontakt</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,8 +19,8 @@
   </nav>
 
   <section>
-    <h1>Über mich</h1>
-    <p>Hier kannst du etwas über dich schreiben: Wer du bist, deine Erfahrung, Motivation usw.</p>
+    <h1>Kontakt</h1>
+    <p>Tel.: 0664/4355391</p>
     <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
   </section>
 
