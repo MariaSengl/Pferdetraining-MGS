@@ -1,0 +1,70 @@
+/* Allgemein */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6bfa8; /* sanft bräunlich */
+  color: #4b3b2b; /* dunkelbraun für Text */
+  line-height: 1.6;
+}
+
+/* Menü */
+nav {
+  background-color: #8b6d5c; /* dunkler Braunton */
+  padding: 15px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff; /* Weiß für guten Kontrast */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: #f0d8b0; /* helles Braun beim Hover */
+}
+
+/* Startbereich */
+.section-start {
+  background-image: url('bilder/meinbild.jpg'); /* Dein Hintergrundbild */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 150px 20px; /* mehr Platz für große Überschrift */
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.section-start h1 {
+  font-size: 4em; /* sehr große Überschrift */
+  margin-bottom: 20px;
+}
+
+.section-start p {
+  font-size: 1.5em; /* Unterüberschrift */
+}
+
+/* Abschnitte / Textboxen */
+section {
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #f0e0d6; /* sanft hellbraun */
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+}
