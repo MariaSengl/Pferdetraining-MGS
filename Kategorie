@@ -2,12 +2,12 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Angebote</title>
+  <title>Meine Ausbildungen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Menü -->
+  <!-- Hauptmenü (wie auf allen Seiten) -->
   <nav>
     <a href="index.html">Startseite</a>
     <a href="ueber-mich.html">Über mich</a>
@@ -18,22 +18,33 @@
     <a href="kontakt.html">Kontakt</a>
   </nav>
 
-  <section>
-    <h1>Meine Angebote</h1>
-    <h2>DelfinHorseTraining</h2>
-    <p>
-    DelfinHorseTraining legt für mich die Basis für alles weitere. Hier lernt man die Grundsäulen Leadership, Kommunikation und Gelassenheit. (siehe auch "meine Philosophie") Hierbei lernst du, eine harmonische Beziehung zu deinem Pferd aufzubauen und die nötigen Tools für schnelles erfolgreiches Lernen des Pferdes. 
-    <p>
-    <h2>Gesundheitsförderndes Training - Gymnastik</h2>
-    <h2>Urlaubsvertretung</h2>
-    <p>
-    Gerne trainiere ich dein Pferd in den Trainingsformen, die ich auch unterrichte, wenn du gerade keine Zeit hast und dich im Urlaub entspannst. Mindestens ein Coaching vor Ort muss aber schon gemacht worden sein, damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann. 
-    <p>
-  Einzelcoachings bei dir vor Ort<br>
-  Videocoaching
-</p>
+  <!-- Seitenspezifisches Untermenü -->
+  <nav class="submenu">
+    <a href="#punkt1">Grundausbildung</a>
+    <a href="#punkt2">Fortbildungen</a>
+    <a href="#punkt3">Workshops</a>
+  </nav>
 
-    <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+  <section>
+    <h1>Meine Ausbildungen</h1>
+
+    <h2 id="punkt1">Grundausbildung</h2>
+    <p>
+      Hier kannst du deine Grundausbildung beschreiben. 
+      Z. B. Dauer, Schule/Institut, besondere Inhalte.
+    </p>
+
+    <h2 id="punkt2">Fortbildungen</h2>
+    <p>
+      Hier fügst du deine Fortbildungen ein, z. B. Seminare, 
+      spezielle Kurse oder Zertifikate.
+    </p>
+
+    <h2 id="punkt3">Workshops</h2>
+    <p>
+      Hier beschreibst du deine Workshops, wann/wo du sie besucht hast 
+      und welche Schwerpunkte sie hatten.
+    </p>
   </section>
 
 </body>
