@@ -8,38 +8,49 @@
 <body>
 
   <!-- Menü -->
-  <nav>
-    <a href="index.html">Startseite</a>
-    <a href="ueber-mich.html">Über mich</a>
-    <a href="ausbildungen.html">Meine Ausbildungen</a>
-    <a href="philosophie.html">Meine Philosophie</a>
-    <a href="angebote.html">Meine Angebote</a>
-    <a href="preise.html">Preise</a>
-    <a href="kontakt.html">Kontakt</a>
+  <nav class="navbar">
+    <div class="logo">Pferdetraining</div>
+    <button class="menu-toggle">☰</button>
+    <div class="menu">
+      <a href="index.html">Startseite</a>
+      <a href="ueber-mich.html">Über mich</a>
+      <a href="ausbildungen.html">Meine Ausbildungen</a>
+      <a href="philosophie.html">Meine Philosophie</a>
+      <a href="angebote.html">Meine Angebote</a>
+      <a href="preise.html">Preise</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
   </nav>
 
-  <section>
-    <h1>Meine Angebote</h1>
-    <h2>Einzelcoachings bei dir vor Ort</h2>
-    <ul>
-  <li>Delfin-Horsetraining Coachings</li>
-  <li>Gesundheitsförderndes Training in Gymnastik, Zirzensik und Trail</li>
-</ul>
-    <h2>Videocoaching</h2>
-    <p>
-    Die heutige Technik macht es möglich, ortsunabhängig und über weite Entfernungen hinweg, Menschen mit ihren Pferden zu coachen. Hierbei gibt es 2 Varianten. 
-    </p>
-    <ul>
-    <li>Live-Videocoaching: Ich bin direkt live über Videocall dabei, wenn du dein Pferd trainierst und kann mit dir über Kopfhörer kommunizieren. Dein Handy stellst du am Rand auf, dass es dich mit deinem Pferd filmt oder eine zweite Person kann dich filmen.<li> 
-    <li>Videoeinsendung und anschließende Besprechung über einen Videocall<li>
-    </ul>
-    <h2>Urlaubsvertretung</h2>
-    <p>
-    Gerne trainiere ich auch dein Pferd in den Trainingsformen, die ich auch unterrichte, wenn du keine/zu wenig Zeit hast oder gerade im Urlaub bist. Mindestens ein Coaching vor Ort muss aber schon stattgefunden haben, damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann. 
-    </p>
-<a href="preise.html">Preise</a>
-    <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
-  </section>
+  <!-- Angebote -->
+  <section class="angebote-section">
+    <div class="angebote-content">
 
-</body>
-</html>
+      <!-- Textbereich -->
+      <div class="angebote-text">
+        <h1>Meine Angebote</h1>
+
+        <h2>Einzelcoachings bei dir vor Ort</h2>
+        <ul>
+          <li>Delfin-Horsetraining Coachings</li>
+          <li>Gesundheitsförderndes Training in Gymnastik, Zirzensik und Trail</li>
+        </ul>
+
+        <h2>Videocoaching</h2>
+        <p>
+          Die heutige Technik macht es möglich, ortsunabhängig und über weite Entfernungen hinweg, 
+          Menschen mit ihren Pferden zu coachen. Hierbei gibt es 2 Varianten:
+        </p>
+        <ul>
+          <li>Live-Videocoaching: Ich bin direkt live über Videocall dabei, wenn du dein Pferd trainierst 
+          und kann mit dir über Kopfhörer kommunizieren. Dein Handy stellst du am Rand auf, sodass es dich 
+          mit deinem Pferd filmt – oder eine zweite Person kann dich filmen.</li>
+          <li>Videoeinsendung und anschließende Besprechung über einen Videocall</li>
+        </ul>
+
+        <h2>Urlaubsvertretung</h2>
+        <p>
+          Gerne trainiere ich auch dein Pferd in den Trainingsformen, die ich auch unterrichte, 
+          wenn du keine/zu wenig Zeit hast oder gerade im Urlaub bist. 
+          Mindestens ein Coaching vor Ort muss aber schon stattgefunden haben, 
+          damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann
