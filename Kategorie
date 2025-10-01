@@ -2,12 +2,12 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Ausbildungen</title>
+  <title>Kontakt</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Hauptmenü (auf allen Seiten gleich) -->
+  <!-- Menü -->
   <nav>
     <a href="index.html">Startseite</a>
     <a href="ueber-mich.html">Über mich</a>
@@ -18,52 +18,14 @@
     <a href="kontakt.html">Kontakt</a>
   </nav>
 
-  <!-- Untermenü nur für diese Seite -->
-  <nav class="submenu">
-    <a href="#punkt1">Grundausbildung</a>
-    <a href="#punkt2">Fortbildungen</a>
-    <a href="#punkt3">Workshops</a>
-  </nav>
-
   <section>
-    <h1>Meine Ausbildungen</h1>
+    <h1>Kontakt</h1>
+    <p>
+  Tel.: 0664/4355391<br>
+  Email: pferdetraining.mgs@gmail.com
+</p>
 
-    <!-- Grundausbildung -->
-    <div class="ausbildung-block" id="punkt1">
-      <img src="bilder/grundausbildung.jpg" alt="Grundausbildung">
-      <div>
-        <h2>Grundausbildung</h2>
-        <p>
-          Hier kannst du deine Grundausbildung beschreiben.<br>
-          Dauer, Schule/Institut, besondere Inhalte usw.
-        </p>
-      </div>
-    </div>
-
-    <!-- Fortbildungen -->
-    <div class="ausbildung-block" id="punkt2">
-      <img src="bilder/fortbildungen.jpg" alt="Fortbildungen">
-      <div>
-        <h2>Fortbildungen</h2>
-        <p>
-          Hier beschreibst du deine Fortbildungen.<br>
-          Seminare, spezielle Kurse oder Zertifikate.
-        </p>
-      </div>
-    </div>
-
-    <!-- Workshops -->
-    <div class="ausbildung-block" id="punkt3">
-      <img src="bilder/workshops.jpg" alt="Workshops">
-      <div>
-        <h2>Workshops</h2>
-        <p>
-          Hier kannst du deine Workshops vorstellen.<br>
-          Wann/wo besucht, Schwerpunkte, Inhalte.
-        </p>
-      </div>
-    </div>
-
+    <img src="bilder/bild3.jpg" alt="Ich bei der Arbeit">
   </section>
 
 </body>
