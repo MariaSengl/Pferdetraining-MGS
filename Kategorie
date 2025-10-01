@@ -62,10 +62,10 @@
       </div>
 
       <!-- Bildbereich -->
-<div class="angebote-bilder-untereinander">
-  <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
-  <img src="bilder/bild3.jpg" alt="Coaching">
-</div>
+      <div class="angebote-bild">
+        <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+        <img src="bilder/bild3.jpg" alt="Coaching">
+      </div>
     </div>
   </section>
 
