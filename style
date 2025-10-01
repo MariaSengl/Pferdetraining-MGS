@@ -145,3 +145,51 @@ img {
 .kontakt-block a:hover {
   color: #8b6d5c; /* Braun beim Hover */
 }
+/* --- Responsive Design für Handy / kleine Bildschirme --- */
+@media (max-width: 768px) {
+  
+  /* Allgemeiner Text etwas kleiner */
+  body {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+
+  /* Überschriften anpassen */
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* Menü enger */
+  nav a {
+    display: block;       /* Links untereinander */
+    margin: 8px 0;
+    font-size: 1em;
+  }
+
+  /* Kontakt-Block untereinander statt nebeneinander */
+  .kontakt-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .kontakt-block img {
+    max-width: 200px; /* auf Handy darf Bild wieder größer wirken */
+    margin-top: 15px;
+  }
+
+  /* Ausbildungsblöcke (Text + Bild) untereinander */
+  .ausbildung-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ausbildung-block img {
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+}
