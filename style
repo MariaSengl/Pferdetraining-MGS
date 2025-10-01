@@ -321,3 +321,37 @@ img {
   max-width: 300px;
   border-radius: 15px;
 }
+/* Angebote Layout */
+.angebote-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; /* sorgt dafür, dass es auf kleineren Bildschirmen umbricht */
+}
+
+.angebote-text {
+  flex: 2; /* Text nimmt mehr Platz ein */
+}
+
+.angebote-bild {
+  flex: 1;
+  display: block;
+  text-align: center;
+}
+
+.angebote-bild img {
+  display: block;
+  max-width: 300px; /* Bildgröße */
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+/* Handy-Ansicht */
+@media (max-width: 768px) {
+  .angebote-content {
+    flex-direction: column; /* Text und Bilder untereinander */
+  }
+  .angebote-bild img {
+    max-width: 100%; /* Bilder nutzen volle Breite am Handy */
+  }
+}
