@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <!-- Menü -->
+  <!-- Hauptmenü -->
   <nav>
     <a href="index.html">Startseite</a>
     <a href="ueber-mich.html">Über mich</a>
@@ -20,12 +20,22 @@
 
   <section>
     <h1>Kontakt</h1>
-    <p>
-  Tel.: 0664/4355391<br>
-  Email: pferdetraining.mgs@gmail.com
-</p>
 
-    <img src="bilder/bild3.jpg" alt="Ich bei der Arbeit">
+    <div class="kontakt-block">
+      <div>
+        <p>
+          <strong>Telefon:</strong><br>
+          0664 / 4355391
+        </p>
+        <p>
+          <strong>Email:</strong><br>
+          <a href="mailto:pferdetraining.mgs@gmail.com">
+            pferdetraining.mgs@gmail.com
+          </a>
+        </p>
+      </div>
+      <img src="bilder/bild3.jpg" alt="Ich bei der Arbeit">
+    </div>
   </section>
 
 </body>
