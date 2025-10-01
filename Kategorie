@@ -53,4 +53,30 @@
           Gerne trainiere ich auch dein Pferd in den Trainingsformen, die ich auch unterrichte, 
           wenn du keine/zu wenig Zeit hast oder gerade im Urlaub bist. 
           Mindestens ein Coaching vor Ort muss aber schon stattgefunden haben, 
-          damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann
+          damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann.
+        </p>
+
+        <p>
+          👉 Siehe auch meine <a href="preise.html">Preise</a>.
+        </p>
+      </div>
+
+      <!-- Bildbereich -->
+      <div class="angebote-bild">
+        <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript für Hamburger-Menü -->
+  <script>
+    const toggleButton = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
