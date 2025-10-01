@@ -8,14 +8,18 @@
 <body>
 
   <!-- Menü -->
-  <nav>
-    <a href="index.html">Startseite</a>
-    <a href="ueber-mich.html">Über mich</a>
-    <a href="ausbildungen.html">Meine Ausbildungen</a>
-    <a href="philosophie.html">Meine Philosophie</a>
-    <a href="angebote.html">Meine Angebote</a>
-    <a href="preise.html">Preise</a>
-    <a href="kontakt.html">Kontakt</a>
+  <nav class="navbar">
+    <div class="logo">Pferdetraining</div>
+    <button class="menu-toggle">☰</button>
+    <div class="menu">
+      <a href="index.html">Startseite</a>
+      <a href="ueber-mich.html">Über mich</a>
+      <a href="ausbildungen.html">Meine Ausbildungen</a>
+      <a href="philosophie.html">Meine Philosophie</a>
+      <a href="angebote.html">Meine Angebote</a>
+      <a href="preise.html">Preise</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
   </nav>
 
   <!-- Startbereich mit großem Hintergrundbild -->
@@ -27,9 +31,22 @@
   <!-- Beispiel-Abschnitt -->
   <section>
     <h2>Über meine Arbeit</h2>
-    <p>Hier kannst du beschreiben, worum es bei deinem Pferdetraining geht, wie du arbeitest und was dich besonders macht.</p>
+    <p>
+      Hier kannst du beschreiben, worum es bei deinem Pferdetraining geht, 
+      wie du arbeitest und was dich besonders macht.
+    </p>
     <img src="bilder/bild1.jpg" alt="Pferdetraining Beispielbild">
   </section>
+
+  <!-- JavaScript für Hamburger-Menü -->
+  <script>
+    const toggleButton = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
 
 </body>
 </html>
