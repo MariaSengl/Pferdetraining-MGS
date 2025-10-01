@@ -291,3 +291,33 @@ img {
 .kontakt-block a:hover {
   color: #8b6d5c;
 }
+/* =======================
+   Angebote-Seite
+   ======================= */
+
+.angebote-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap; /* Für Handy: untereinander */
+}
+
+.angebote-text {
+  flex: 2;
+}
+
+.angebote-text h1 {
+  margin-bottom: 20px;
+}
+
+.angebote-bild {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.angebote-bild img {
+  max-width: 300px;
+  border-radius: 15px;
+}
