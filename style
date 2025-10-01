@@ -193,3 +193,61 @@ img {
     margin-bottom: 15px;
   }
 }
+/* --- Hamburger Menü --- */
+.navbar {
+  background-color: #8b6d5c;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* --- Responsive: auf Handy umschalten --- */
+@media (max-width: 768px) {
+  .navbar .menu {
+    display: none; /* Menü zuerst verstecken */
+    flex-direction: column;
+    background-color: #8b6d5c;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar .menu.show {
+    display: flex; /* Menü sichtbar wenn "show" aktiv */
+  }
+
+  .navbar .menu-toggle {
+    display: block; /* Hamburger-Button sichtbar */
+  }
+}
