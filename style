@@ -407,7 +407,7 @@ img {
 }
 
 .preise-bild img {
-  max-width: 300px;
+  max-width: 500px;
   border-radius: 15px;
   display: block;
   margin: 0 auto;
