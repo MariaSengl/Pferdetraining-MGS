@@ -355,3 +355,37 @@ img {
     max-width: 100%; /* Bilder nutzen volle Breite am Handy */
   }
 }
+/* Preise Layout */
+.preise-content {
+  display: flex;
+  align-items: center; /* Bild wird mittig zum Text ausgerichtet */
+  gap: 40px;
+  flex-wrap: wrap; /* bricht bei kleinen Bildschirmen um */
+}
+
+.preise-text {
+  flex: 2; /* Text nimmt mehr Platz ein */
+}
+
+.preise-bild {
+  flex: 1;
+  text-align: center;
+}
+
+.preise-bild img {
+  max-width: 300px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Handy-Ansicht */
+@media (max-width: 768px) {
+  .preise-content {
+    flex-direction: column; /* Text und Bild untereinander */
+    text-align: center;
+  }
+  .preise-bild img {
+    max-width: 100%;
+  }
+}
