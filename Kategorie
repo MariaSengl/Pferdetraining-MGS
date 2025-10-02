@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Angebote</title>
+  <title>Preise</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,55 +22,30 @@
     </div>
   </nav>
 
-  <!-- Angebote -->
-  <section class="angebote-section">
-    <div class="angebote-content">
+  <!-- Preise -->
+  <section class="preise-section">
+    <div class="preise-content">
 
       <!-- Textbereich -->
-      <div class="angebote-text">
-        <h1>Meine Angebote</h1>
-
-        <h2>Einzelcoachings bei dir vor Ort</h2>
-        <p>
-        In einem Umkreis von 100km von 8354 St. Anna am Aigen aus, komme ich gerne zu dir und deinem Pferd vor Ort und coache euch in eurer gewohnten Umgebung. Hierbei biete ich Folgendes an: 
-        </p>
+      <div class="preise-text">
+        <h1>Preise</h1>
+      <h2>Einzelcoachings vor Ort</h2>
         <ul>
-          <li>Delfin-Horsetraining Coachings</li>
-          <li>Gesundheitsförderndes Training in Gymnastik, Zirzensik und Trail (falls vor Ort vorhanden)</li>
+          <li>40€ pro Stunde</li>
+          <li>plus Anfahrtskosten von 0,50€ pro km</li>
         </ul>
-
-        <h2>Videocoaching</h2>
-        <p>
-          Die heutige Technik macht es möglich, ortsunabhängig und über weite Entfernungen hinweg, 
-          Menschen mit ihren Pferden zu coachen. Hierbei biete ich 2 Varianten:
-        </p>
+      <h2>Videocoaching</h2>
         <ul>
-          <li>Live-Videocoaching: Ich bin direkt live über Videocall dabei, wenn du dein Pferd trainierst 
-          und kann mit dir über Kopfhörer kommunizieren. Dein Handy stellst du am Rand auf, sodass es dich 
-          mit deinem Pferd filmt – oder eine zweite Person kann dich filmen.</li>
-          <li>Videoeinsendung: Telefonisches Vorgespräch, Videoeinsendung und anschließende Besprechung des Videos über einen Videocall</li>
-        </ul>
-
-        <h2>Trainingsvertretung</h2>
+          <li>Live-Videocoaching: 40€ pro Stunde</li>
+          <li>Videoeinsendung: 70€ für 1 Videoeinsendung mit Vorgespräch und Videocall mit Besprechung des Videos. Pro Videoeinsendung 
         <p>
-          Gerne komme ich in den Stall zu deinem Pferd (im Umkreis von 100km von 8354 St. Anna am Aigen aus) und trainiere es in den Trainingsformen, die ich auch coache, 
-          wenn du keine/zu wenig Zeit hast oder gerade im Urlaub bist. 
-          Mindestens ein Coaching vor Ort muss aber schon stattgefunden haben, 
-          damit ich das Pferd im Vorhinein schon kenne und die Situation besser einschätzen kann.
-        </p>
-        <p>
-          Hier findest du die <a href="preise.html">Preise</a> zu meinen Angeboten. 
-        </p>
-        <p>
-        Für eine Terminvereinbarung melde dich gerne telefonisch oder via Email bei mir. (Siehe <a href="kontakt.html">Kontakt</a>) <br>
-        Ich freue mich auf dich und dein Pferd!
+          Fahrtkosten können je nach Entfernung variieren. Genauere Infos erhältst du im direkten Kontakt.
         </p>
       </div>
 
       <!-- Bildbereich -->
-      <div class="angebote-bild">
+      <div class="preise-bild">
         <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
-        <img src="bilder/bild3.jpg" alt="Coaching">
       </div>
     </div>
   </section>
