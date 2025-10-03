@@ -2,68 +2,160 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Preise</title>
+  <title>Meine Ausbildungen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Menü -->
-  <nav class="navbar">
-    <div class="logo">Pferdetraining</div>
-    <button class="menu-toggle">☰</button>
-    <div class="menu">
-      <a href="index.html">Startseite</a>
-      <a href="ueber-mich.html">Über mich</a>
-      <a href="ausbildungen.html">Meine Ausbildungen</a>
-      <a href="philosophie.html">Meine Philosophie</a>
-      <a href="angebote.html">Meine Angebote</a>
-      <a href="preise.html">Preise</a>
-      <a href="kontakt.html">Kontakt</a>
-    </div>
+  <!-- Hauptmenü (auf allen Seiten gleich) -->
+  <nav>
+    <a href="index.html">Startseite</a>
+    <a href="ueber-mich.html">Über mich</a>
+    <a href="ausbildungen.html">Meine Ausbildungen</a>
+    <a href="philosophie.html">Meine Philosophie</a>
+    <a href="angebote.html">Meine Angebote</a>
+    <a href="preise.html">Preise</a>
+    <a href="kontakt.html">Kontakt</a>
   </nav>
 
-  <!-- Preise -->
-  <section class="preise-section">
-    <div class="preise-content">
+  <!-- Untermenü nur für diese Seite -->
+  <nav class="submenu">
+    <a href="#punkt1">Coachausbildung bei Delfin-Horsetraining</a>
+    <a href="#punkt2">Ganzheitliche Online-Pferdeausbildung von Sandra Fencl</a>
+    <a href="#punkt3">Online-Ausbildung in zirzensischer Gymnastik und vertrauensfördernder Bodenarbeit</a>
+    <a href="#punkt4">Takt gut – alles gut! Seminar von Sandra Fencl</a>
+    <a href="#punkt5">Pferde FAIRsteher-Onlinekurs</a>
+    <a href="#punkt6">Sattel- & Gebisskunde Videoseminar</a>
+    <a href="#punkt7">Weitere Seminare von Sandra Fencl</a>
+    <a href="#punkt8">Hufwissen</a>
+    <a href="#punkt9">Lernen von Wildpferden – Masterclass von Marc Lubetzki</a>
+    <a href="#punkt10">Weitere wichtige Personen, von denen ich gelernt habe</a>
+  </nav>
 
-      <!-- Textbereich -->
-      <div class="preise-text">
-        <h1>Preise</h1>
-      <h2>Einzelcoachings vor Ort</h2>
-        <ul>
-          <li>40€ pro Stunde</li>
-          <li>ab 20km Entfernung Anfahrtskosten von 0,40€ pro km - bei mehreren Kunden auf einer Strecke/in einem Gebiet können die Anfahrtskosten natürlich geteilt werden.</li>
-        </ul>
-      <h2>Videocoaching</h2>
-        <ul>
-          <li>Live-Videocoaching: 40€ pro Stunde</li>
-          <li>Videoeinsendung:
-            <ul>
-            <li>kleinere Fragen/Themen: 40€</li>
-            <li>komplexere Fragen/Themen: 60€<li/>
-            </ul>
-        </ul>
-       <h2>Trainingsvertretung</h2>
-        <ul>
-          <li>40€/h - gezahlt nach Zeit, die anfällt, um Pferd von Koppel zu holen, zu putzen, Training, Kraftfutter zu geben, etc.</li>
-      </div>
+  <section>
+    <h1>Meine Ausbildungen</h1>
 
-      <!-- Bildbereich -->
-      <div class="preise-bild">
-        <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+    <!-- Coachausbildung bei Delfin-Horsetraining -->
+    <div class="ausbildung-block" id="punkt1">
+      <img src="bilder/Delfin-Horsetraining.jpg" alt="Delfin-Horsetraining">
+      <div>
+        <h2>Coachausbildung bei Delfin-Horsetraining</h2>
+        <p>
+          Delfin-Horsetraining ist eine reitweisenunabhängige Trainingsform, die besonderes Augenmerk auf die Motivation des Pferdes und einen gewaltfreien Umgang legt. Das Ziel ist eine harmonische Beziehung zwischen Pferd und Mensch. Eine Besonderheit ist auch, dass man dem Pferd beibringt, allein auf Worte hin, Lektionen auszuführen, ohne dass es Körpersignale oder andere Hilfsmittel braucht. So selbstverständlich, wie das bei Hunden verwendet wird, so fremd klingt das fürs Pferdetraining. Wie man sieht, funktioniert das aber genauso und ermöglicht einen vielfältigen Einsatzbereich. Um nur ein paar zu nennen: Fahren, Reitstunden für Anfänger, Training mit mehreren Pferden gleichzeitig und unabhängig voneinander, Handpferdereiten, für Therapiepferde, Menschen mit Einschränkungen, etc.
+Was macht DelfinHorseTraining aus?
+Im DelfinHorseTraining wollen wir das Wesen des Pferdes zur Mitarbeit gewinnen. Wir sehen das Pferd nicht als mechanischen Apparat an, den wir steuern wollen, sondern wollen das Wesen des Pferdes motivieren, zum Verstehen bringen und mit dem Wesen kommunizieren. Wie bereits oben beschrieben, bringen wir dem Pferd bei, auf ein Wort hin eine Lektion auszuführen, ohne dass es Körpersignale oder andere Hilfsmittel braucht. In dieser Trainingsform wird auch keine klassische negative Verstärkung verwendet. 
+Mehr zu Delfin-Horsetraining ->
+        </p>
       </div>
     </div>
+
+    <!-- Ganzheitliche Online-Pferdeausbildung von Sandra Fencl -->
+    <div class="ausbildung-block" id="punkt2">
+      <img src="bilder/Ganzheitliche.jpg" alt="Ganzheitliche">
+      <div>
+        <h2>Ganzheitliche Online-Pferdeausbildung von Sandra Fencl</h2>
+        <p>
+          Sandra Fencl hat ein enormes ganzheitliches Wissen durch sämtliche Ausbildungen sowie langjähriger eigener Erfahrung gesammelt. Um ein paar ihrer Ausbildungen zu nennen: Pferde-Osteopathin, Pferde-Physiotherapeutin, Hufpflegerin, Pferdedentistin, Cranio-Sakral Therapeutin, Centered Riding Instructor, klassisch-barock Trainerin, Islandpferdetrainerin und -züchterin, Humangesundheitstrainerin, etc. 
+Ich durfte in ihrer Ausbildung sehr viel über ganzheitliche Pferdegesundheit und gesundheitsförderndes Training lernen. Die Themenbereiche waren: die natürliche Schiefe des Pferdes, Anatomie und Biomechanik, Mimik & Blickschulung, Pferdetypenlehre, Trainingsintensität, Motivationstypenlehre, Vertiefendes Wissen zu Belohnen und Hilfengebung, Mentaltraining, gesunde Pferdefütterung, Stoffwechsel des Pferdes, Mobilisationsübungen, Massage- und Energietechniken, Anti-Stresstraining, Gymnastizierende Bodenarbeit, Vertrauensfördernde Bodenarbeit, Wissen über Muskelaufbau und Trainingsgestaltung, Ausrüstungskunde, Jungpferd – Gewöhnung an Ausrüstung, Reiter & Co., Abkauübungen, Handarbeit, gesunder Pferderücken, Gymnastizierender Beritt, Gymnastizierendes Reiten, Reitersitz, Probleme im Gelände, Handpferdereiten, Gymnastizierung im Gelände. 
+Das sind gute Tools für ein gesundes abwechslungsreiches Training. 
+        </p>
+      </div>
+    </div>
+
+    <!-- Online-Ausbildung in zirzensischer Gymnastik und vertrauensfördernder Bodenarbeit -->
+    <div class="ausbildung-block" id="punkt3">
+      <img src="bilder/Zirzensik.jpg" alt="Zirzensik">
+      <div>
+        <h2>Online-Ausbildung in zirzensischer Gymnastik und vertrauensfördernder Bodenarbeit</h2>
+        <p>
+          Zirkuslektionen können – gesund ausgeführt - eine geniale Trainingsform sein, um das Pferd zu gymnastizieren, die Schiefe zu korrigieren, dem Pferd ein besseres Bewusstsein für seinen ganzen Körper zu geben, die Koordination und Beidhändigkeit zu fördern, es geistig zu beschäftigen und zu motivieren. In der Regel lieben Pferde Zirkuslektionen – sie steigern also auch die Motivation des Pferdes und bauen ein stärkeres Vertrauen auf, unter anderem durch Übungen wie Liegen. Besonders wichtig, ist die Ausführung, die darüber entscheidet, ob es gesund oder schädlich ist fürs Pferd. Tatsächlich können Pferde durch „falsche“ Ausführung enorme gesundheitliche Probleme bekommen, angefangen mit Gelenksproblemen, Arthrose, Blockaden, Muskelverspannungen oder Lahmheiten bis hin zu Organproblemen (Verdauung, Atmung, etc.), da diese von der Bewegung beeinflusst werden und Blockaden, beispielsweise in der Wirbelsäule, eine Einschränkung in der Versorgung und Bewegung (Organschwingung) der Organe verursachen können. Das gilt nicht nur für Zirkuslektionen, sondern für jegliche Art der Bewegung, wie Bodenarbeit, Reiten, etc. 
+        </p>
+      </div>
+    </div>
+
+<!-- Takt gut – alles gut! Seminar von Sandra Fencl -->
+    <div class="ausbildung-block" id="punkt4">
+      <img src="bilder/takt.jpg" alt="Takt">
+      <div>
+        <h2>Takt gut – alles gut! Seminar von Sandra Fencl</h2>
+        <p>
+          Jeder kennt die Ausbildungspyramide der FN. Aus ganzheitlicher Sicht beeinflusst sich aber alles gegenseitig. Funktioniert eins nicht, fällt auch das andere. Ohne Losgelassenheit kein Takt, ohne Geraderichtung kein Takt. Ein gutes Erkennungsmerkmal ist der Takt. Passt der, muss einiges bereits stimmen. 
+        </p>
+      </div>
+    </div>
+
+<!-- Pferde FAIRsteher-Onlinekurs -->
+    <div class="ausbildung-block" id="punkt5">
+      <img src="bilder/FAIRsteher.jpg" alt="FAIRsteher">
+      <div>
+        <h2>Pferde FAIRsteher-Onlinekurs</h2>
+        <p>
+          Um mit Pferden fair zu trainieren, muss man sie verstehen. Oft ist uns nicht bewusst, wie eingeschränkt Pferde durch ihre Schiefe und Vorhandlastigkeit sein können. Ein Verständnis der Biomechanik ermöglicht, die Probleme des Pferdes zu erkennen und sie in kleinen Schritten zu verbessern, die das Pferd umsetzen kann und es aus dem Problem rausholen wird. 
+        </p>
+      </div>
+    </div>
+
+<!-- Sattel- & Gebisskunde Videoseminar -->
+    <div class="ausbildung-block" id="punkt6">
+      <img src="bilder/sattel.jpg" alt="sattel">
+      <div>
+        <h2>Sattel- & Gebisskunde Videoseminar</h2>
+        <p>
+          Wir verwenden es täglich bei unseren Pferden, aber über die Wirkung sind sich die wenigsten bewusst. Wie genau wirkt eine Trense und warum bringt das das Pferd dazu dies und jenes zu tun? Was genau macht der Sattel mit dem Reitergewicht? Wo kann der Pferderücken gut tragen, wo ist er empfindlich? „Computermessungen haben ergeben, dass der Großteil der Sättel nicht passt“, schreibt Cornelia Koller in ihrem Buch „Das Sattelbuch - Alles über Sättel und Zubehör“ (1997). Meinen Beobachtungen in der Praxis zufolge hat sich diesbezüglich nicht viel verändert. Ausrüstung ist wichtig und hat einen großen Einfluss auf die Leistung und die Gesundheit. Wie viele Pferde zeigen Probleme beim Gurten? Wie viele Pferde drücken den Rücken weg/zeigen Rittigkeitsprobleme? 
+        </p>
+      </div>
+    </div>
+
+<!-- Weitere Seminare von Sandra Fencl -->
+    <div class="ausbildung-block" id="punkt7">
+      <img src="bilder/seminare.jpg" alt="seminare">
+      <div>
+        <h2>Weitere Seminare von Sandra Fencl</h2>
+        <ul>
+          <li>Schiefenseminar</li>
+          <li>Ernährungsseminar</li>
+          <li>TCM-Pferdetypenlehre</li>
+          <li>EnergyFlow11 (Gesundheit und Energie auf allen Ebenen)</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- Hufwissen -->
+    <div class="ausbildung-block" id="punkt8">
+      <img src="bilder/hufwissen.jpg" alt="hufwissen">
+      <div>
+        <h2>Hufwissen</h2>
+        <p>
+          Wenn man einmal in das Thema eintaucht, sieht man nur mehr kranke Hufe. Die Kurse „Praxiswissen Hufgesundheit“ von Sandra Fencl und der „Online Hufkurs“ von Maksida Vogt inklusive einiger Bücher und Praxis mit berufserfahrenen Hufpflegern haben mir einen guten Einblick in das Wunderwerk Huf gegeben. Seither kümmern wir uns auch selbst um die Hufe unserer Pferde und lernen stetig aus der Praxis. Der Huf gibt die Basis der Statik von unten vor. Ohne Hufe kein Pferd. Wer kennt eine lange Nacht mit hohen, vielleicht drückenden, Stöckelschuhen? Genau das erleben Pferde oft, nur dass sie die Schuhe gar nicht ausziehen können. Pferde können Schmerz sehr lange verstecken und sich nichts anmerken lassen. Das ist ihr Schutz in der Wildnis. Als Haus- bzw. Hoftier wird das aber zur Gefahr. Die Probleme werden meist viel zu spät erkannt und die Tiere leiden still dahin. Hufe haben aber einen großen Einfluss auf die Bewegung, Entgiftung und auch den Blutfluss des Pferdes. Pferde haben nämlich ab dem Karpal- bzw. Sprunggelenk keine Muskeln mehr. Das Blut fließt mit der Schwerkraft nach unten und muss durch die sogenannte Hufpumpe wieder nach oben gepumpt werden. Die Hufpumpe ist das Spreizen und Zusammenziehen des Hufes bei Belastung und Entlastung des Hufes. Bei schlechter/unzureichender Hufbearbeitung – oder auch Hufeisen und Ähnlichem – wird das spreizen verringert, was weniger Blutfluss bedeutet. Des Weiteren können beispielsweise falsch/zu wenig bearbeitete Trachten und Eckstreben den Knochen im Huf (das Hufbein) nach oben hebeln und sogenannte Hufrehe herbeiführen. Ebenso können Abszesse, Strahlfäule usw. durch schlechte Hufbearbeitung verursacht werden. 
+        </p>
+      </div>
+    </div>
+
+<!-- Lernen von Wildpferden – Masterclass von Marc Lubetzki -->
+    <div class="ausbildung-block" id="punkt9">
+      <img src="bilder/workshops.jpg" alt="Workshops">
+      <div>
+        <h2>Workshops</h2>
+        <p>
+          Hier kannst du deine Workshops vorstellen.<br>
+          Wann/wo besucht, Schwerpunkte, Inhalte.
+        </p>
+      </div>
+    </div>
+
+<!-- Workshops -->
+    <div class="ausbildung-block" id="punkt3">
+      <img src="bilder/workshops.jpg" alt="Workshops">
+      <div>
+        <h2>Workshops</h2>
+        <p>
+          Hier kannst du deine Workshops vorstellen.<br>
+          Wann/wo besucht, Schwerpunkte, Inhalte.
+        </p>
+      </div>
+    </div>
+
   </section>
-
-  <!-- JavaScript für Hamburger-Menü -->
-  <script>
-    const toggleButton = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('.menu');
-
-    toggleButton.addEventListener('click', () => {
-      menu.classList.toggle('show');
-    });
-  </script>
 
 </body>
 </html>
