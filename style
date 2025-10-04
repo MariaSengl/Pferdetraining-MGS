@@ -458,3 +458,22 @@ img {
     max-width: 100%;
   }
 }
+.submenu {
+  display: flex;
+  flex-direction: column; /* Links untereinander */
+  gap: 8px; /* Abstand zwischen den Links */
+  margin: 20px 0;
+}
+
+.submenu a {
+  text-decoration: none;
+  padding: 8px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  color: #333;
+  transition: background 0.3s;
+}
+
+.submenu a:hover {
+  background: #ddd;
+}
