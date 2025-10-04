@@ -133,27 +133,62 @@ Das sind gute Tools für ein gesundes abwechslungsreiches Training.
 
 <!-- Lernen von Wildpferden – Masterclass von Marc Lubetzki -->
     <div class="ausbildung-block" id="punkt9">
-      <img src="bilder/workshops.jpg" alt="Workshops">
+      <img src="bilder/wildpferde.jpg" alt="Wildpferde">
       <div>
-        <h2>Workshops</h2>
+        <h2>Lernen von Wildpferden – Masterclass von Marc Lubetzki</h2>
         <p>
-          Hier kannst du deine Workshops vorstellen.<br>
-          Wann/wo besucht, Schwerpunkte, Inhalte.
+          Warum gibt es so viele Missverständnisse im Umgang mit Pferden? Ein Grund ist, dass ihr natürliches Verhalten weitgehend unbekannt ist oder falsch interpretiert wird. Der Tierfilmer Marc Lubetzki verbringt sechs Monate im Jahr zwischen Wildpferden. Seine Beobachtungen aus unmittelbarer Nähe ermöglichen erstmals einen intimen Einblick in ihr Familienleben. Er zeigt neue Erkenntnisse über Herdenstrukturen und -organisation, Rangordnung, Körpersprache, Kommunikation, Lebensräume und Anpassung an Klima auf und wirft einige alt eingesessene Glaubenssätze über Pferde-/Herdenverhalten über Bord. 
+In seiner 3-jährigen Masterclass teilt Marc Lubetzki seine Erkenntnisse, zeigt Missverständnisse aus der heutigen Pferdewelt auf, und veranschaulicht, wie man das neue Wissen auf unsere Hauspferde anwenden kann, mit ihnen auf natürliche Weise kommunizieren kann und Teil der Herde wird. Jedes der 3 Jahre der Masterclass hat einen Hauptschwerpunkt: Verhalten – Kommunikation – Haltung (naturnahe Lebensraumgestaltung). Es ist augenöffnend über diese Dinge zu lernen! Man denkt dann über Pferde ganz anders. 
         </p>
       </div>
     </div>
 
-<!-- Workshops -->
-    <div class="ausbildung-block" id="punkt3">
-      <img src="bilder/workshops.jpg" alt="Workshops">
+<!-- Weitere wichtige Personen, von denen ich gelernt habe -->
+    <div class="ausbildung-block" id="punkt10">
       <div>
-        <h2>Workshops</h2>
+        <h2>Weitere wichtige Personen, von denen ich gelernt habe</h2>
         <p>
-          Hier kannst du deine Workshops vorstellen.<br>
-          Wann/wo besucht, Schwerpunkte, Inhalte.
+          Ich hatte leider (noch) nicht die Gelegenheit, mit diesen Personen mal persönlich zu sprechen, doch habe ich über ihre Bücher, DVDs oder Videos sehr viel gelernt und mitnehmen können. 
         </p>
-      </div>
-    </div>
+<div class="unterpunkt">
+  <div class="unterpunkt-text">
+    <h3>Eva Wiemers</h3>
+      <p>Sie hat die zirzensische Gymnastik bekannt gemacht und zahlreiche Shows und Kurse gegeben. Was mich aber besonders interessiert hat, war ihr Weg, wie sie Pferden etwas beigebracht hat. Ein wissenschaftlich unterstütztes Vorgehen, das eine Pferdeausbildung ohne Nachdruck erlaubt. Weltbeste Trainer für Wassersäugetiere, Vögel und so weiter arbeiten mit diesem Modell. Es basiert rein auf positiver Verstärkung und einer schlauen Vorgehensweise. Sie bildet damit Pferde von Grund auf aus und fördert die Gesundheit des Pferdes mit verschiedensten Zirkuslektionen, Trailhindernissen und anderen lustigen Übungen. Diese Art der Ausbildung und Gesunderhaltung macht Pferd und Mensch viel Spaß!</p>
+  </div>
+  <div class="unterpunkt-bild">
+    <img src="bilder/wiemers.jpg" alt="Eva Wiemers">
+  </div>
+</div>
+
+<div class="unterpunkt">
+  <div class="unterpunkt-text">
+    <h3>Nadine Lindblom</h3>
+      <p>In ihrer „Essence of Liberty“ Akademie, sowie auf ihrem YouTube Kanal veröffentlicht sie spannende Inhalte über das Training mit Pferden auf Basis des freien Willens. Sie zeigt ebenfalls eine Trainingsmethode, die nur mit positiver Verstärkung arbeitet. Sie legt besonderen Wert auf das Gefühl, das das Pferd in der Trainingseinheit hat. Das wichtigste Element in ihrem Training ist die freiwillige Mitarbeit des Pferdes – und was freiwillig überhaupt bedeutet. Es lohnt sich, ihre Podcastfolgen auf YouTube anzuhören und mal darüber nachzudenken. Man bekommt einen ganz neuen Blickwinkel auf Training und Freiwilligkeit. Ich habe sehr viel von ihr gelernt und für mein Training mit Pferden mitnehmen können.</p>
+  </div>
+  <div class="unterpunkt-bild">
+    <img src="bilder/nadine.jpg" alt="Nadine Lindblom">
+  </div>
+</div>
+
+<div class="unterpunkt">
+  <div class="unterpunkt-text">
+    <h3>Kenzie Dysli</h3>
+      <p>Eine der wohl bekanntesten Pferdetrainerinnen im deutschsprachigen Raum. Mich inspirieren die Verspieltheit, Leichtigkeit und Freude, die sie und ihre Pferde im Training ausstrahlen. Besonders die Freiarbeit am Boden und reitend hat mich von Anfang an begeistert. Ihre vielen Lehrvideos auf YouTube waren damals für mich als Kind im Training mit Pferden Gold wert! Viele meiner jetzigen Taktiken stammen davon und sind stets in meiner Toolbox. ;)</p>
+  </div>
+  <div class="unterpunkt-bild">
+    <img src="bilder/Kenzie.jpg" alt="Kenzie Dysli">
+  </div>
+</div>
+
+<div class="unterpunkt">
+  <div class="unterpunkt-text">
+     <h3>Jean-Claude Dysli</h3>
+      <p>Auch Kenzies Vater hat mich fasziniert mit seiner lässigen altkalifornischen Westernreitweise. Die feine Hilfengebung, alle Lektionen rein mit Sitzhilfen auszuführen und das gelassene Pferd, haben mich dazu motiviert, mich mit seinen Lehren mehr zu beschäftigen.</p>
+  </div>
+  <div class="unterpunkt-bild">
+    <img src="bilder/Dysli.jpg" alt="Jean-Claude Dysli">
+  </div>
+</div>
 
   </section>
 
