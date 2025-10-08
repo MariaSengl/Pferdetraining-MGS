@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Delfin-Horsetraining</title>
+  <title>🐴🐬❤️</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,16 +16,13 @@
     <a href="angebote.html">Meine Angebote</a>
     <a href="preise.html">Preise</a>
     <a href="kontakt.html">Kontakt</a>
-    <a href="Delfin-Horsetraining.html">🐴🐬🫶</a>
+    <a href="Delfin-Horsetraining.html">🐴🐬❤️</a>
   </nav>
 
-  <section>
+<!-- Überschriftbereich -->
+  <section class="section-start">
     <h1>Delfin-Horsetraining</h1>
-
-   <p>
-Text
-</p>
-
+    <p>Gewaltfreies und trotzdem erfolgreiches Pferdetraining bei dem auch das Pferd Spaß hat!</p>
   </section>
 
 </body>
