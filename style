@@ -477,3 +477,101 @@ img {
 .submenu a:hover {
   background: #ddd;
 }
+/* --- Überschrift mit Hintergrundbild --- */
+.section-header {
+  background: url('bilder/header-pferd.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: black;
+}
+
+.section-header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* --- Zitat-Block --- */
+.zitat {
+  text-align: center;
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 800px;
+}
+
+.zitat blockquote {
+  font-style: italic;
+  font-size: 28px;
+  line-height: 1.6;
+  border-left: 4px solid #999;
+  padding-left: 20px;
+  color: #333;
+}
+
+/* --- Hervorgehobener Textblock --- */
+.highlight-text {
+  background-color: #f8f4ec; /* sanftes Beige, kannst du ändern */
+  border-left: 5px solid #c5a880;
+  padding: 40px 60px;
+  margin: 50px auto;
+  max-width: 900px;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'Georgia', serif;
+}
+
+/* --- Text-Bild-Block --- */
+.text-bild-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 60px auto;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.text-bild-block img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.text-bild-block div {
+  width: 50%;
+}
+
+.text-bild-block h2 {
+  margin-top: 0;
+}
+
+.text-bild-block p {
+  line-height: 1.6;
+}
+
+/* --- Mobile Ansicht --- */
+@media (max-width: 768px) {
+  .text-bild-block {
+    flex-direction: column;
+  }
+
+  .text-bild-block img,
+  .text-bild-block div {
+    width: 100%;
+  }
+
+  .section-header {
+    padding: 60px 20px;
+  }
+
+  .section-header h1 {
+    font-size: 40px;
+  }
+
+  .section-header p {
+    font-size: 18px;
+  }
+}
