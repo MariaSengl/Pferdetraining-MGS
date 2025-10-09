@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Über mich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- Menü -->
+  <nav class="navbar">
+    <div class="logo">Pferdetraining</div>
+    <button class="menu-toggle">☰</button>
+    <div class="menu">
+      <a href="index.html">Startseite</a>
+      <a href="ueber-mich.html">Über mich</a>
+      <a href="ausbildungen.html">Meine Ausbildungen</a>
+      <a href="philosophie.html">Meine Philosophie</a>
+      <a href="angebote.html">Meine Angebote</a>
+      <a href="preise.html">Preise</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="Delfin-Horsetraining.html">🐴🐬❤️</a>
+    </div>
+  </nav>
+
+
+  <section>
+    <h1>Über mich</h1>
+    <p>Hier kannst du etwas über dich schreiben: Wer du bist, deine Erfahrung, Motivation usw.</p>
+    <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+  </section>
+
+</body>
+</html>
