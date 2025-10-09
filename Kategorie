@@ -74,10 +74,11 @@ auch das Pferd Spaß hat!</p>
     <img src="bilder/pferd2.jpg" alt="Pferd in der Natur">
   </section>
 
-<section class="text-bild-block">
-    <div>
+<section class="hauptsaeulen">
+  <div class="hauptsaeulen-inhalt">
+    <div class="hauptsaeulen-text">
       <h2>Die 3 Hauptsäulen des Delfin-Horsetrainings</h2>
-      <h3>Leadership</h3>
+       <h3>Leadership</h3>
       <p>
        Hier lernt das Pferd, den Menschen ernst zu nehmen und rücksichtsvoll mit ihm umzugehen. Der Mensch entwickelt die Fähigkeiten, die ein Leader braucht: Ruhe, Klarheit, Entschlossenheit, Durchsetzungsvermögen und das nötige Feingefühl fürs Gegenüber. 
       </p>
@@ -89,11 +90,15 @@ auch das Pferd Spaß hat!</p>
       <p>
       Hier lernt das Pferd, bei Angst immer stehen zu bleiben und ruhig zu bleiben. Durch die Übungen wird die Grundgelassenheit des Pferdes höher, die Sicherheit von Mensch und Pferd steigt und das gegenseitige Vertrauen wächst.   
       </p> 
-</div>
-    <img src="bilder/pferd3.jpg" alt="Pferd in der Natur">
-    <img src="bilder/pferd4.jpg" alt="Pferd in der Natur">
-    <img src="bilder/pferd5.jpg" alt="Pferd in der Natur">
-  </section>
+    </div>
+
+    <div class="hauptsaeulen-bilder">
+      <img src="bilder/pferd3.jpg" alt="Leadership">
+      <img src="bilder/pferd4.jpg" alt="Kommunikation">
+      <img src="bilder/pferd5.jpg" alt="Gelassenheit">
+    </div>
+  </div>
+</section>
 
 <section class="text-bild-block">
     <div>
