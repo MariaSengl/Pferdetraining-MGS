@@ -575,3 +575,38 @@ img {
     font-size: 18px;
   }
 }
+.hauptsaeulen {
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.hauptsaeulen-inhalt {
+  display: flex;
+  align-items: flex-start; /* Text und Bilder oben ausgerichtet */
+  gap: 30px;
+}
+
+.hauptsaeulen-text {
+  flex: 2;
+  line-height: 1.6;
+}
+
+.hauptsaeulen-text h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.hauptsaeulen-bilder {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Bilder untereinander */
+  align-items: center;
+  gap: 15px;
+}
+
+.hauptsaeulen-bilder img {
+  width: 220px;           /* kleinere, gleichmäßige Größe */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
