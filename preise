@@ -43,8 +43,9 @@
             <ul>
             <li>kleinere Fragen/Themen: 40€</li>
             <li>komplexere Fragen/Themen: 67€</li>
-            </ul>
-       <h2>Trainingsvertretung</h2>
+          </li>
+        </ul>
+      <h2>Trainingsvertretung</h2>
         <ul>
           <li>45€/h + 0,50€ pro km Anfahrt (ab 15km Entfernung von 8354 St. Anna am Aigen)<br>
               22€ für jede weitere halbe Stunde<br>
@@ -53,7 +54,7 @@
 
       <!-- Bildbereich -->
       <div class="preise-bild">
-        <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
+        <img src="bilder/preise1.jpg" alt="Ich bei der Arbeit">
       </div>
     </div>
   </section>
