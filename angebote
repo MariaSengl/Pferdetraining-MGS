@@ -74,8 +74,10 @@
 
       <!-- Bildbereich -->
       <div class="angebote-bild">
-        <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
-        <img src="bilder/bild3.jpg" alt="Coaching">
+        <img src="bilder/angebote6.jpg" alt="Ich bei der Arbeit">
+        <img src="bilder/angebote2.jpg" alt="Coaching">
+        <img src="bilder/angebote1.jpg" alt="Zirzensik">
+        <img src="bilder/angebote5.jpg" alt="Gymnastik">
       </div>
     </div>
   </section>
@@ -92,3 +94,4 @@
 
 </body>
 </html>
+
