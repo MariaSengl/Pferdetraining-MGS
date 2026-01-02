@@ -610,3 +610,16 @@ img {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
+.zitat {
+  max-width: 800px;
+  margin: 60px auto;          /* Abstand + zentriert */
+  padding: 30px 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+
+  color: inherit;             /* gleiche Schriftfarbe wie normaler Text */
+
+  border-top: 1px solid #1f4e79;
+  border-bottom: 1px solid #1f4e79;
+}
