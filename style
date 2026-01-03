@@ -623,3 +623,39 @@ img {
   border-top: 1px solid #1f4e79;
   border-bottom: 1px solid #1f4e79;
 }
+/* Zitat mit Schnörkeln */
+.zitat {
+  position: relative;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  color: inherit; /* gleiche Textfarbe wie normaler Text */
+}
+
+/* Schnörkel oben & unten */
+.zitat::before,
+.zitat::after {
+  content: "❦ ❦ ❦";
+  display: block;
+  font-size: 26px;
+  color: #7a4a2e; /* gleiche Farbe wie h2 */
+  margin: 20px 0;
+  letter-spacing: 6px;
+}
+
+/* Mobile Optimierung */
+@media (max-width: 600px) {
+  .zitat {
+    padding: 30px 15px;
+    font-size: 0.95rem;
+  }
+
+  .zitat::before,
+  .zitat::after {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+}
