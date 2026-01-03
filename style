@@ -610,52 +610,51 @@ img {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
-.zitat {
-  max-width: 800px;
-  margin: 60px auto;          /* Abstand + zentriert */
-  padding: 30px 20px;
-  text-align: center;
-  font-style: italic;
-  line-height: 1.6;
 
-  color: inherit;             /* gleiche Schriftfarbe wie normaler Text */
-
-  border-top: 1px solid #1f4e79;
-  border-bottom: 1px solid #1f4e79;
-}
-/* Zitat mit Schnörkeln */
 .zitat {
   position: relative;
   max-width: 900px;
-  margin: 60px auto;
+  margin: 70px auto;
   padding: 40px 20px;
   text-align: center;
   font-style: italic;
   line-height: 1.6;
-  color: inherit; /* gleiche Textfarbe wie normaler Text */
+  color: inherit;
 }
 
-/* Schnörkel oben & unten */
+/* geschwungene Linie oben & unten */
 .zitat::before,
 .zitat::after {
-  content: "❦ ❦ ❦";
+  content: "";
   display: block;
-  font-size: 26px;
-  color: #7a4a2e; /* gleiche Farbe wie h2 */
-  margin: 20px 0;
-  letter-spacing: 6px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 25px 0;
 }
 
-/* Mobile Optimierung */
+/* obere Linie */
+.zitat::before {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 30'>\
+<path d='M10 15 Q150 -10 290 15' stroke='%237a4a2e' stroke-width='2' fill='none'/>\
+</svg>");
+}
+
+/* untere Linie (gespiegelt) */
+.zitat::after {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 30'>\
+<path d='M10 15 Q150 40 290 15' stroke='%237a4a2e' stroke-width='2' fill='none'/>\
+</svg>");
+}
+
+/* Mobile */
 @media (max-width: 600px) {
   .zitat {
     padding: 30px 15px;
     font-size: 0.95rem;
   }
-
-  .zitat::before,
-  .zitat::after {
-    font-size: 22px;
-    letter-spacing: 4px;
-  }
 }
+
