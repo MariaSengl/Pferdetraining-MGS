@@ -611,44 +611,46 @@ img {
   object-fit: cover;
 }
 
-.zitat {
-  position: relative;
-  max-width: 900px;
-  margin: 70px auto;
-  padding: 40px 20px;
-  text-align: center;
-  font-style: italic;
-  line-height: 1.6;
-  color: inherit;
-}
-
-/* geschwungene Linie oben & unten */
+/* kunstvolle Schnörkel-Linie oben & unten */
 .zitat::before,
 .zitat::after {
   content: "";
   display: block;
-  height: 30px;
+  height: 40px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin: 25px 0;
+  margin: 30px 0;
 }
 
 /* obere Linie */
 .zitat::before {
   background-image: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 30'>\
-<path d='M10 15 Q150 -10 290 15' stroke='%237a4a2e' stroke-width='2' fill='none'/>\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 40'>\
+<path d='M20 20 \
+Q70 5 120 20 \
+T220 20 \
+T320 20 \
+T420 20 \
+T480 20' \
+stroke='%237a4a2e' stroke-width='2' fill='none'/>\
 </svg>");
 }
 
-/* untere Linie (gespiegelt) */
+/* untere Linie (gespiegelt, etwas tiefer) */
 .zitat::after {
   background-image: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 30'>\
-<path d='M10 15 Q150 40 290 15' stroke='%237a4a2e' stroke-width='2' fill='none'/>\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 40'>\
+<path d='M20 20 \
+Q70 35 120 20 \
+T220 20 \
+T320 20 \
+T420 20 \
+T480 20' \
+stroke='%237a4a2e' stroke-width='2' fill='none'/>\
 </svg>");
 }
+
 
 /* Mobile */
 @media (max-width: 600px) {
