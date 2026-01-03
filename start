@@ -32,22 +32,22 @@
 
   <!-- Beispiel-Abschnitt -->
   <section>
-    <h2>Über meine Arbeit</h2>
-    <p>
+   
+    <p align="center">
       Pferde üben auf Menschen eine besondere Faszination aus. Der Wunsch, mit diesen wunderbaren Wesen frei zu kommunizieren, mit feinen Signalen auszukommen, das Gefühl von Verbundenheit und gleichzeitiger Freiheit, wenn all die Ausrüstung wegfällt, und nur noch die unsichtbare Verbindung bleibt, schlummert in Vielen. <br>
       Gerne begleite ich dich auf dem Weg dorthin und helfe dir, deine Träume zu verwirklichen. Für mich sind auf diesem Weg 3 Dinge besonders wichtig: <br>
       <strong>Motivation, Gesundheit und Sicherheit.</strong> <br>
-      Motivation ist der Hauptantrieb zum Ziel. Das gilt für Mensch und Pferd. Wer motiviert ist, lernt schnell, ist engagiert und mit Herz und Seele dabei und das Allerwichtigste: hat Spaß! <br>
-      Wer gesund ist, ist vital, voller Lebensenergie, Lebensfreude und Bewegungsdrang. Leider sind heutzutage viel zu viele Pferde in ihrer Gesundheit eingeschränkt. Die meisten Pferde leiden still, ohne dass ihre Probleme bemerkt werden. Gerade im Training werden auch viele gesundheitliche Prozesse beeinflusst – negativ wie positiv. Für mich ist es wichtig, die Pferde im Training auch in ihrer Gesundheit zu fördern und Lektionen so aufzubauen, dass sie gesundheitsfördernd statt -schädigend wirken. <br>
-      Doch was wäre das alles ohne Sicherheit? Sicherlich kann sich jeder an eine kritische Situation mit seinem Pferd erinnern, in der die Kommunikation abgebrochen ist und das Pferd kopflos agierte. Viele wünschen sich, mit ihrem Pferd gelassen auszureiten, ein verlässliches Pferd zu haben und die gemeinsame Zeit genießen zu können. Der Schlüssel dazu ist eine gute Beziehung zwischen Pferd und Mensch in der die Aufgabenverteilung klar ist und man sich aufeinander verlassen kann. 
+      <strong>Motivation</strong> ist der Hauptantrieb zum Ziel. Das gilt für Mensch und Pferd. Wer motiviert ist, lernt schnell, ist engagiert und mit Herz und Seele dabei und das Allerwichtigste: hat Spaß! <br>
+      Wer gesund ist, ist vital, voller Lebensenergie, Lebensfreude und Bewegungsdrang. Leider sind heutzutage viel zu viele Pferde in ihrer Gesundheit eingeschränkt. Die meisten Pferde leiden still, ohne dass ihre Probleme bemerkt werden. Gerade im Training werden auch viele gesundheitliche Prozesse beeinflusst – negativ wie positiv. Für mich ist es wichtig, die Pferde im Training auch in ihrer <strong>Gesundheit</strong> zu fördern und Lektionen so aufzubauen, dass sie gesundheitsfördernd statt -schädigend wirken. <br>
+      Doch was wäre das alles ohne <strong>Sicherheit</strong>? Sicherlich kann sich jeder an eine kritische Situation mit seinem Pferd erinnern, in der die Kommunikation abgebrochen ist und das Pferd kopflos agierte. Viele wünschen sich, mit ihrem Pferd gelassen auszureiten, ein verlässliches Pferd zu haben und die gemeinsame Zeit genießen zu können. Der Schlüssel dazu ist eine gute Beziehung zwischen Pferd und Mensch in der die Aufgabenverteilung klar ist und man sich aufeinander verlassen kann. 
   </p>
     <blockquote class="zitat-barock">
         Auf ein Pferd, das aus Angst gehorcht, ist kein Verlass. Es wird immer etwas geben, vor dem es sich mehr fürchtet als vor dem Menschen. Vertraut es ihm aber, wird es sich an ihn wenden, wenn es sich fürchtet. Sicherheit & gegenseitiges Vertrauen entstehen jedoch nicht einfach durch Leckerlis & bloßer Nettigkeit, sondern durch eine gute Beziehung zwischen Mensch & Pferd.  
     </blockquote>
-    <p>
+    <p align="center">
       Ein gewaltfreies & trotzdem erfolgreiches Pferdetraining bei dem auch das Pferd Spaß hat! 
     </p>
-    <img src="bilder/bild1.jpg" alt="Pferdetraining Beispielbild">
+    
   </section>
 
   <!-- JavaScript für Hamburger-Menü -->
