@@ -611,52 +611,71 @@ img {
   object-fit: cover;
 }
 
-/* kunstvolle Schnörkel-Linie oben & unten */
-.zitat::before,
-.zitat::after {
+.zitat-barock {
+  position: relative;
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 50px 30px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.7;
+  color: inherit;
+}
+
+/* Gemeinsame Basis für oben & unten */
+.zitat-barock::before,
+.zitat-barock::after {
   content: "";
   display: block;
-  height: 40px;
+  height: 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   margin: 30px 0;
 }
 
-/* obere Linie */
-.zitat::before {
+/* Oberer Barock-Schnörkel */
+.zitat-barock::before {
   background-image: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 40'>\
-<path d='M20 20 \
-Q70 5 120 20 \
-T220 20 \
-T320 20 \
-T420 20 \
-T480 20' \
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 60'>\
+<path d='M20 30 \
+C80 5, 160 5, 220 30 \
+S360 55, 420 30 \
+S520 5, 580 30' \
+stroke='%237a4a2e' stroke-width='2.5' fill='none'/>\
+<path d='M300 10 \
+C280 30, 280 30, 300 50 \
+C320 30, 320 30, 300 10' \
 stroke='%237a4a2e' stroke-width='2' fill='none'/>\
 </svg>");
 }
 
-/* untere Linie (gespiegelt, etwas tiefer) */
-.zitat::after {
+/* Unterer Barock-Schnörkel (gespiegelt) */
+.zitat-barock::after {
   background-image: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 40'>\
-<path d='M20 20 \
-Q70 35 120 20 \
-T220 20 \
-T320 20 \
-T420 20 \
-T480 20' \
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 60'>\
+<path d='M20 30 \
+C80 55, 160 55, 220 30 \
+S360 5, 420 30 \
+S520 55, 580 30' \
+stroke='%237a4a2e' stroke-width='2.5' fill='none'/>\
+<path d='M300 10 \
+C280 30, 280 30, 300 50 \
+C320 30, 320 30, 300 10' \
 stroke='%237a4a2e' stroke-width='2' fill='none'/>\
 </svg>");
 }
 
-
-/* Mobile */
+/* 📱 Mobile Optimierung */
 @media (max-width: 600px) {
-  .zitat {
-    padding: 30px 15px;
+  .zitat-barock {
+    padding: 35px 15px;
     font-size: 0.95rem;
   }
-}
 
+  .zitat-barock::before,
+  .zitat-barock::after {
+    height: 40px;
+    margin: 20px 0;
+  }
+}
