@@ -679,3 +679,58 @@ stroke='%237a4a2e' stroke-width='2' fill='none'/>\
     margin: 20px 0;
   }
 }
+/* Bild mit Text & Rahmen */
+.bild-mit-text {
+  position: relative;
+  max-width: 900px;              /* Bildgröße Desktop */
+  margin: 60px auto;             /* zentriert + Abstand */
+  border: 4px solid #7a4a2e;     /* Farbe wie h2 */
+  border-radius: 12px;
+  overflow: hidden;              /* Text bleibt im Bild */
+}
+
+.bild-mit-text img {
+  width: 100%;
+  display: block;
+}
+
+/* Text im Bild */
+.bild-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90%;
+  padding: 15px 25px;
+
+  background: rgba(255, 255, 255, 0.85); /* gut lesbar */
+  color: #000;
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+
+  border-radius: 8px;
+}
+
+/* 📱 Mobile Optimierung */
+@media (max-width: 768px) {
+  .bild-mit-text {
+    max-width: 95%;
+    margin: 40px auto;
+  }
+
+  .bild-text {
+    font-size: 1rem;
+    padding: 12px 18px;
+    bottom: 12px;
+  }
+}
+.bild-text {
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+.bild-text {
+  background: rgba(0,0,0,0.55);
+  color: white;
+}
