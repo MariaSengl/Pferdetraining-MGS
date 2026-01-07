@@ -69,6 +69,8 @@ img {
   max-width: 100%;
   border-radius: 15px;
 }
+
+/* Untermenü – Seite "Meine Ausbildungen" */
 .submenu {
   background-color: #f0e0d6; /* hellbrauner Hintergrund */
   padding: 10px;
@@ -78,34 +80,16 @@ img {
 }
 
 .submenu a {
-  color: #4b3b2b; /* dunkelbraun */
-  text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
+  text-decoration: none;
+  color: #4b3b2b;
 }
 
 .submenu a:hover {
   color: #8b6d5c; /* dunkler Braunton beim Hover */
 }
-/* Untermenü auf der Seite "Meine Ausbildungen" */
-.submenu {
-  background-color: #f0e0d6; /* hellbrauner Hintergrund */
-  padding: 10px;
-  text-align: center;
-  margin: 20px;
-  border-radius: 10px;
-}
 
-.submenu a {
-  color: #4b3b2b; /* dunkelbraun */
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.submenu a:hover {
-  color: #8b6d5c; /* dunkler Braunton beim Hover */
-}
 
 /* Layout für Ausbildungsblöcke */
 .ausbildung-block {
