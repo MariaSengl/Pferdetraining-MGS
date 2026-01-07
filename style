@@ -761,12 +761,12 @@ body.seite-barock .abschluss-text {
     font-size: 2rem;
   }
 
-  .wechsel-block {
+  body.seite-barock .wechsel-block {
     flex-direction: column;
     text-align: center;
   }
 
-  .wechsel-block img {
+  body.seite-barock .wechsel-block img {
     width: 100%;
     max-width: 320px;
   }
