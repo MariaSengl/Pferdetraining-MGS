@@ -660,14 +660,14 @@ stroke='%237a4a2e' stroke-width='2' fill='none'/>\
   color: white;
 }
 
-/* ===== HEADER STREIFEN ===== */
-.header-streifen {
+/* ===== HEADER STREIFEN Philosophie===== */
+body.seite-barock .header-streifen {
   height: 280px;
   background: url("bilder/header.jpg") center/cover no-repeat;
   position: relative;
 }
 
-.header-overlay {
+body.seite-barock .header-overlay {
   position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.4);
@@ -678,19 +678,19 @@ stroke='%237a4a2e' stroke-width='2' fill='none'/>\
   text-align: center;
 }
 
-.header-overlay h1 {
+body.seite-barock .header-overlay h1 {
   color: white;
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.header-overlay p {
+body.seite-barock .header-overlay p {
   color: white;
   font-size: 1.3rem;
 }
 
 /* ===== ZENTRIERTE TEXTE ===== */
-.zentrierter-text {
+body.seite-barock .zentrierter-text {
   max-width: 900px;
   margin: 50px auto;
   text-align: center;
@@ -698,57 +698,57 @@ stroke='%237a4a2e' stroke-width='2' fill='none'/>\
 }
 
 /* ===== GROSSE BILDER ===== */
-.grosses-bild {
+body.seite-barock .grosses-bild {
   max-width: 1100px;
   margin: 60px auto;
 }
 
-.grosses-bild img {
+body.seite-barock .grosses-bild img {
   width: 100%;
   border-radius: 12px;
 }
 
 /* ===== WECHSEL-ABSCHNITT ===== */
-.wechsel-abschnitt {
+body.seite-barock .wechsel-abschnitt {
   max-width: 1100px;
   margin: 80px auto;
 }
 
-.wechsel-abschnitt h2 {
+body.seite-barock .wechsel-abschnitt h2 {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.wechsel-block {
+body.seite-barock .wechsel-block {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-bottom: 60px;
 }
 
-.wechsel-block p {
+body.seite-barock .wechsel-block p {
   flex: 1;
   line-height: 1.6;
 }
 
-.wechsel-block img {
+body.seite-barock .wechsel-block img {
   width: 280px;
   border-radius: 10px;
 }
 
 /* LINKS / RECHTS */
-.wechsel-block.links {
+body.seite-barock .wechsel-block.links {
   flex-direction: row;
   text-align: left;
 }
 
-.wechsel-block.rechts {
+body.seite-barock .wechsel-block.rechts {
   flex-direction: row-reverse;
   text-align: right;
 }
 
 /* LETZTER TEXT */
-.abschluss-text {
+body.seite-barock .abschluss-text {
   text-align: center;
   max-width: 800px;
   margin: 60px auto 0;
