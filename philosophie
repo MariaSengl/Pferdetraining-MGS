@@ -5,7 +5,7 @@
   <title>Über mich</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="seite-barock">
 
  <!-- Menü -->
   <nav class="navbar">
