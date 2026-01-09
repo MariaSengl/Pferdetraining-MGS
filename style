@@ -771,3 +771,9 @@ body.seite-barock .abschluss-text {
     max-width: 320px;
   }
 }
+
+.seite-barock section {
+  background-color: transparent;
+  margin: 60px auto;
+  padding: 40px 20px;
+}
