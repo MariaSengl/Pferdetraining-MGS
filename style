@@ -777,3 +777,34 @@ body.seite-barock .abschluss-text {
   margin: 60px auto;
   padding: 40px 20px;
 }
+
+/* Philosophie-Seite: Abstand Text → Zitat verkleinern */
+.seite-barock .zentrierter-text {
+  margin-bottom: 20px;   /* vorher 50px */
+}
+
+.seite-barock .zitat-barock {
+  margin-top: 30px;      /* vorher 80px */
+}
+
+@media (max-width: 768px) {
+  .seite-barock .zentrierter-text {
+    margin-bottom: 15px;
+  }
+
+  .seite-barock .zitat-barock {
+    margin-top: 20px;
+  }
+}
+
+/* Philosophie-Seite: große Bilder kleiner & ruhiger */
+.seite-barock .grosses-bild {
+  max-width: 550px;   /* ca. halb so breit wie vorher */
+  margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+  .seite-barock .grosses-bild {
+    max-width: 90%;
+  }
+}
