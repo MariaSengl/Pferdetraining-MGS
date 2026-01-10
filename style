@@ -808,3 +808,15 @@ body.seite-barock .abschluss-text {
     max-width: 90%;
   }
 }
+
+/* Philosophie-Seite: große Bilder kleiner (erzwingt Override) */
+body.seite-barock .grosses-bild {
+  max-width: 550px !important;
+  margin: 40px auto !important;
+}
+
+body.seite-barock .grosses-bild img {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+}
