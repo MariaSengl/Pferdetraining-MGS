@@ -24,11 +24,7 @@
   </nav>
 
 
-  <section>
-    <h1>Über mich</h1>
-    <p>Hier kannst du etwas über dich schreiben: Wer du bist, deine Erfahrung, Motivation usw.</p>
-    <img src="bilder/bild2.jpg" alt="Ich bei der Arbeit">
-  </section>
+  
 
 </body>
 </html>
