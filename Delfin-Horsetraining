@@ -79,28 +79,34 @@ auch das Pferd Spaß hat!</p>
   </section>
 
 <section class="hauptsaeulen">
-  <div class="hauptsaeulen-inhalt">
-    <div class="hauptsaeulen-text">
-      <h2>Die 3 Hauptsäulen des Delfin-Horsetrainings</h2>
-       <h3>Leadership</h3>
+  <div class="hauptsaeulen-grid">
+
+    <h2 class="haupttitel">Die 3 Hauptsäulen des Delfin-Horsetrainings</h2>
+
+    <div class="saeule-text">
+      <h3>Leadership</h3>
       <p>
        Hier lernt das Pferd, den Menschen ernst zu nehmen und rücksichtsvoll mit ihm umzugehen. Der Mensch entwickelt die Fähigkeiten, die ein Leader braucht: Ruhe, Klarheit, Entschlossenheit, Durchsetzungsvermögen und das nötige Feingefühl fürs Gegenüber. 
       </p>
-    <h3>Kommunikation</h3>
+  </div>
+    <img src="bilder/pferd3.jpg" alt="Leadership">
+
+   <div class="saeule-text">
+      <h3>Kommunikation</h3>
       <p>
       Hier lernt der Mensch, wie er mit dem Pferd kommunizieren kann, dass es schnell und gut versteht und lernt. Pferde lieben klare verständliche Kommunikation. Das Pferd lernt, dass ein Wort allein eine Bedeutung hat und beginnt selbstständig zu denken und handeln. 
-      </p>    
-    <h3>Gelassenheit</h3>
+      </p>  
+</div>
+    <img src="bilder/pferd4.jpg" alt="Kommunikation">
+
+    <div class="saeule-text">
+      <h3>Gelassenheit</h3>
       <p>
       Hier lernt das Pferd, bei Angst immer stehen zu bleiben und ruhig zu bleiben. Durch die Übungen wird die Grundgelassenheit des Pferdes höher, die Sicherheit von Mensch und Pferd steigt und das gegenseitige Vertrauen wächst.   
-      </p> 
+      </p>
     </div>
+    <img src="bilder/pferd5.jpg" alt="Gelassenheit">
 
-    <div class="hauptsaeulen-bilder">
-      <img src="bilder/pferd3.jpg" alt="Leadership">
-      <img src="bilder/pferd4.jpg" alt="Kommunikation">
-      <img src="bilder/pferd5.jpg" alt="Gelassenheit">
-    </div>
   </div>
 </section>
 
