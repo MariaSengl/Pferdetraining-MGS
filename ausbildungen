@@ -38,7 +38,7 @@
   </nav>
 
   <section>
-    <h1>Meine Ausbildungen</h1>
+    <h1>Ausbildungen, Kurse und Seminare, die ich gemacht habe</h1>
 
     <!-- Coachausbildung bei Delfin-Horsetraining -->
     <div class="ausbildung-block" id="punkt1">
